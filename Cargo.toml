@@ -1,0 +1,12 @@
+[package]
+name = "accent-colors"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+windows = { version = "0.58", features = [
+    "UI_ViewManagement",
+    "Foundation",
+    "Win32_Foundation",
+    "Win32_System_Console",
+] }
